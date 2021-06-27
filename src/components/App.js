@@ -1,12 +1,12 @@
 import React from "react"
-import Profile from "./Profile"
-import user from "./user.json"
-import Statistics from "./Statistics"
-import statisticalData from "./statistical-data.json"
-import FriendList from "./FriendList"
-import friends from "./friends.json"
-import TransactionHistory from "./TransactionHistory"
-import transactions from "./transactions.json"
+import Profile from "./Profile/Profile"
+import user from "./Profile/user.json"
+import Statistics from "./Statistics/Statistics"
+import statisticalData from "./Statistics/statistical-data.json"
+import FriendList from "./FriendList/FriendList"
+import friends from "./FriendList/friends.json"
+import TransactionHistory from "./Transactions/TransactionHistory"
+import transactions from "./Transactions/transactions.json"
 
 const App = () => (
   <>
